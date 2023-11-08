@@ -2,20 +2,19 @@
 
 **General Information:**
 
-Every task has it's own "workspace", it's own task folder, please stay in these folders while working on the solutions.
-You can put any necessary requirments to the _requirments.txt_ it will be installed automatically if it is not empty.
-Points will firstly based on correction and completion of the tasks, then implementation, functionality, code prettyness and readibility will be taken to account as well. You can work in more than one file and use abstraction too.
+Every task has its own "workspace", its own task folder, please stay in these folders while working on the solutions. You can put any necessary requirements to the requirements.txt it will be installed automatically if it is not empty. 
+Points will firstly be based on correction and completion of the tasks, then implementation, functionality, code prettiness and readability will be taken into account as well. You can work in more than one file and use abstraction too.
 
 Folder structure:
 
 - _input.txt_
-- _main.py_, which is the the main entry point for the automatized test runner, please do not remove this file, it must not have required parameters and always have to create an _output.txt_ file which can be evaluated afterwards the _main.py_ is run
+- _main.py_, which is the main entry point for the automatized test runner, please do not remove this file, it must not have required parameters and always have to create an output.txt file which can be evaluated afterwards the main.py is run.
 
 **Disclaimer:**
 
-- The run time of your solutions must not exceed 10 seconds. When checking the solutions if a code is running past this 10 seconds it will be automatically shut down
-- Make sure you do not modify the _.github_ folder
-- Make sure you do not rename or delete the _main.py_ file
+- The run time of your solutions must not exceed 10 seconds. When checking the solutions if a code is running past these 10 seconds it will automatically be shut down.
+- Make sure you do not modify the .github folder.
+- Make sure you do not modify or delete the main.py file.
 
 ## 1. Palindrome Checker
 
@@ -24,11 +23,11 @@ palindrome_checker
 
 **Description:**
 
-Your task is to develop a program that checks if a given string is a palindrome while taking into account alphanumeric characters and ignoring upper and lower case. Additionally, the program should count the number of unique characters in the string.
+Your task is to develop a program that checks if a given string is a palindrome while considering alphanumeric characters and ignoring upper and lower case. Additionally, the program should count the number of unique characters in the string.
 
 **Input:**
 
-The input is a list of string that may contain letters, digits, punctuation, symbols, and spaces. The string can be a combination of uppercase and lowercase characters.
+The input is a list of strings that may contain letters, digits, punctuation, symbols, and spaces. The string can be a combination of uppercase and lowercase characters.
 
 **Output:**
 
@@ -70,7 +69,7 @@ Your task is to develop a program that can perform a set of matrix operations on
 
 **Input Format:**
 
-The input consists a list of matrices with its own keys sizes and values, then a list of operations.
+The input consists of a list of matrices with their own key sizes and values, and then a list of operations.
 
 **Output:**
 
@@ -119,7 +118,7 @@ maze_solver
 
 **Description:**
 
-Your task is to develop a program that can navigate through a 2D maze grid, starting from a designated point and reaching a goal while avoiding obstacles. The maze grid consists of open pathways, walls, a starting point, and a goal. The program should find the shortest and quickest path from the starting point to the goal.
+Your task is to develop a program that can navigate through a 2D maze grid, starting from a designated point and reaching the goal while avoiding obstacles. The maze grid consists of open pathways, walls, a starting point, and the goal. The program should find the shortest and quickest path from the starting point to the goal.
 
 **Input Format:**
 
@@ -171,7 +170,8 @@ dobble_generator
 
 **Description:**
 
-Your task is to write a generator which can generate a "Dobble deck". The game "Dobble" consists of a deck of cards, each containing `n` different symbols. When you choose any two cards from the deck, it is guaranteed that they will have one and only one symbol in common.
+Your task is to write a generator which can generate a "Dobble deck". The game "Dobble" (or “Spot it!”) consists of a deck of cards, each containing n different symbols. When you choose any two cards from the deck, it is guaranteed that they will have one and only one symbol in common. 
+If you are unfamiliar with the game, you can read about the rules [here](https://www.ultraboardgames.com/spot-it/game-rules.php).
 
 **Input Format:**
 
@@ -179,12 +179,8 @@ Every line of the input file contains the number of symbols on each cards.
 
 **Output:**
 
-Should contain the number of symbols (as a reference) and below the generated output, similarly like in the example. If the provided number of symbols is not valid instead of the generated list you should write `invalid` after the number of symbols (reference) like this:
-
-```
-n
-invalid
-```
+Should contain the number of symbols (as a reference) and below the generated output, similarly to the example. 
+If the provided symbol number (or given character) in the input is not valid, instead of the generated list, you should write invalid after the character of the symbols (reference).
 
 **Example:**
 _input.txt_
@@ -192,6 +188,7 @@ _input.txt_
 ```
 3
 4
+n
 ```
 
 _output.txt_
@@ -220,12 +217,11 @@ _output.txt_
 11 - [4, 5, 10, 12]
 12 - [4, 6, 8, 13]
 13 - [4, 7, 9, 11]
+
+n
+invalid
 ```
 
 **Constraints:**
 
 - Its essential to note that the same value cannot be a common element in all pairs of cards.
-
-**Note:**
-
-For more information about the Dobble game, you can refer to the official game rules.

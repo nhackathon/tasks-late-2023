@@ -15,7 +15,7 @@ Folder structure:
 
 - The run time of your solutions must not exceed 10 seconds. When checking the solutions if a code is running past this 10 seconds it will be automatically shut down
 - Make sure you do not modify the _.github_ folder
-- Make sure you do not modify or delete the _main.py_ file
+- Make sure you do not rename or delete the _main.py_ file
 
 ## 1. Palindrome Checker
 

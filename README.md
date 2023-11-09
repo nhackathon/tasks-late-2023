@@ -8,7 +8,7 @@ Points will firstly be based on correction and completion of the tasks, then imp
 Folder structure:
 
 - _input.txt_
-- _main.py_, which is the main entry point for the automatized test runner, please do not remove this file, it must not have required parameters and always have to create an output.txt file which can be evaluated afterwards the main.py is run.
+- _main.py_, which is the main entry point for the automatized test runner, please do not remove this file, it must not have required parameters. Please print your solutions for each and every task in the console.
 
 **Disclaimer:**
 

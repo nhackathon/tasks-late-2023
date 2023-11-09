@@ -160,7 +160,7 @@ A
 S R D D D R D G
 
 B
-****
+*****
 ```
 
 The program outputs the path as a sequence of movements: right (R), down (D), left (L), and up (U).

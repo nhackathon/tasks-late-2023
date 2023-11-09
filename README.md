@@ -48,7 +48,7 @@ worldmadamhelloworld
 1234567890
 ```
 
-_output.txt_
+_console printout:_
 
 ```
 YES, 4
@@ -95,7 +95,7 @@ A + B
 A * B
 ```
 
-_output.txt_
+_console printout:_
 
 ```
 A + B
@@ -153,7 +153,7 @@ B
 
 In this example, the maze is represented by a 2D grid. 'S' marks the starting point, 'G' is the goal, '.' represents open pathways, and '#' indicates walls or obstacles.
 
-_output.txt_
+_console printout:_
 
 ```
 A
@@ -197,7 +197,7 @@ _input.txt_
 n
 ```
 
-_output.txt_
+_console printout:_
 
 ```
 3

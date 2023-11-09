@@ -23,7 +23,7 @@ palindrome_checker
 
 **Description:**
 
-Your task is to develop a program that checks if a given string is a palindrome while considering alphanumeric characters and ignoring upper and lower case. Additionally, the program should count the number of unique characters in the string.
+Your task is to develop a program that checks if a given string is a palindrome while considering only the alphanumeric characters [a-zA-Z0-9] and ignoring upper and lower case. Additionally, the program should count the number of unique characters in the string.
 
 **Input:**
 
@@ -46,6 +46,8 @@ hello
 1232112321
 worldmadamhelloworld
 1234567890
+!racecar
+CivIC
 ```
 
 _console printout:_
@@ -56,6 +58,8 @@ NO, -1
 YES, 3
 NO, -1
 NO, -1
+YES, 4
+YES, 3
 ```
 
 ## 2. Matrix Operations

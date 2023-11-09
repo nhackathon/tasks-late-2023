@@ -19,6 +19,7 @@ Folder structure:
 ## 1. Palindrome Checker
 
 **Task Folder:**
+
 palindrome_checker
 
 **Description:**
@@ -65,6 +66,7 @@ YES, 3
 ## 2. Matrix Operations
 
 **Task Folder:**
+
 matrix_operations
 
 **Description:**
@@ -80,6 +82,7 @@ The input consists of a list of matrices with their own key sizes and values, an
 The program should produce the result of the specified matrix operation.
 
 **Example:**
+
 _input.txt_
 
 ```
@@ -118,6 +121,7 @@ Ensure that the program handles matrices of different sizes correctly and perfor
 ## 3. Maze Solver
 
 **Task Folder:**
+
 maze_solver
 
 **Description:**
@@ -176,6 +180,7 @@ Ensure that the program correctly navigates through the maze, avoiding obstacles
 ## 4. Dobble Generator
 
 **Task Folder:**
+
 dobble_generator
 
 **Description:**
@@ -193,6 +198,7 @@ Should contain the number of symbols (as a reference) and below the generated ou
 If the provided symbol number (or given character) in the input is not valid, instead of the generated list, you should write invalid after the character of the symbols (reference).
 
 **Example:**
+
 _input.txt_
 
 ```

@@ -131,7 +131,7 @@ The input is a 2D grid that represents the maze. It consists of characters to de
 
 **Output:**
 
-The program should provide the path, from the starting point to the goal. This path should be represented by the movement directions like: 'U' for up, 'D' for down, 'L' for left, 'R' for right.
+The program should provide the path, from the starting point to the goal. This path should be represented by the movement directions like: 'U' for up, 'D' for down, 'L' for left, 'R' for right and should include the starting point 'S' and the goal 'G'.
 
 **Example:**
 
@@ -146,6 +146,9 @@ A
 # . . . # # #
 # . # G . . #
 # # # # # # #
+
+B
+*****
 ```
 
 In this example, the maze is represented by a 2D grid. 'S' marks the starting point, 'G' is the goal, '.' represents open pathways, and '#' indicates walls or obstacles.
@@ -154,7 +157,10 @@ _output.txt_
 
 ```
 A
-R D D D R D
+S R D D D R D G
+
+B
+****
 ```
 
 The program outputs the path as a sequence of movements: right (R), down (D), left (L), and up (U).

@@ -3,7 +3,7 @@
 **General Information:**
 
 Every task has its own "workspace", its own task folder, please stay in these folders while working on the solutions. You can put any necessary requirements to the requirements.txt it will be installed automatically if it is not empty. 
-Points will firstly be based on correction and completion of the tasks, then implementation, functionality, code prettiness and readability will be taken into account as well. You can work in more than one file and use abstraction too.
+Points will firstly be based on correction and completion of the tasks, then implementation, functionality, code prettiness and readability will be taken into account as well. You can work in more than one file and use abstraction too. Regarding the points: the third and fourth are considered to be harder, therefore, they worth double points.
 
 Folder structure:
 
